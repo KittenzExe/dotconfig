@@ -1,0 +1,87 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty-icat",
+    "source": "$(ls ~/.config/fastfetch/*.png | shuf -n 1)",
+    "width": 24,
+    "height": 24
+  },
+  "display": {
+      "constants": [
+          "██ "
+      ]
+  },
+  "modules": [
+      {
+          "key": "{$1}Herta",
+          "keyColor": "38;2;132;107;196",
+          "type": "custom",
+          "format": "kuru kuru~"
+      },
+      {
+          "key": "{$1}User",
+          "keyColor": "38;2;142;119;200",
+          "type": "title"
+      },
+      {
+          "key": "{$1}Distro",
+          "keyColor": "38;2;152;132;205",
+          "type": "os"
+      },
+      {
+          "key": "{$1}Kernel",
+          "keyColor": "38;2;163;144;209",
+          "type": "kernel"
+      },
+      {
+          "key": "{$1}Terminal",
+          "keyColor": "38;2;173;157;213",
+          "type": "terminal"
+      },
+      {
+          "key": "{$1}WM",
+          "keyColor": "38;2;183;169;218",
+          "type": "wm"
+      },
+      {
+          "key": "{$1}CPU",
+          "keyColor": "38;2;193;182;222",
+          "type": "cpu"
+      },
+      {
+          "key": "{$1}Memory",
+          "keyColor": "38;2;203;194;227",
+          "type": "memory"
+      },
+      {
+          "key": "{$1}GPU",
+          "keyColor": "38;2;213;207;231",
+          "type": "gpu"
+      },
+      {
+        "key": "{$1}Disk",
+        "keyColor": "38;2;224;219;235",
+        "type": "disk"
+      },
+      {
+          "key": "{$1}Display",
+          "keyColor": "38;2;234;232;240",
+          "type": "display"
+      },
+      {
+        "key": "{$1}Packages",
+        "keyColor": "38;2;244;244;244",
+        "type": "packages"
+      },
+      {
+          "key": "{$1}Uptime",
+          "keyColor": "38;2;244;244;244",
+          "type": "uptime"
+      },
+      {
+          "key": "{$1}Battery",
+          "keyColor": "38;2;244;244;244",
+          "type": "battery"
+      }
+  ]
+}
